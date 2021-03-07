@@ -1,11 +1,26 @@
 name: BossTweaks
 main: com.sidpatchy.BossTweaks.BossTweaks
-version: 1.0-SNAPSHOT
+version: 1.0
 author: Sidpatchy
 api-version: 1.16
 permissions:
-  BossTweaks.*:
-    description: Gives the player all permissions
+  bosstweaks.*:
+    description: Gives the player all permissions for BossTweaks
     default: op
+    children:
+      bosstweaks.use: true
+      bosstweaks.reload: true
+  bosstweaks.use:
+    description: Allows the player to use /bt
+    default: true
+  bosstweaks.reload:
+    description: Allows the player to reload BossTweaks (/bt reload)
+    default: false
+commands:
+  bt:
+    description: Main command, lists all sub commands when used on its own.
+    permission: bosstweaks.use
+    aliases: [bosstweaks]
+    usage: /<command>
 
 

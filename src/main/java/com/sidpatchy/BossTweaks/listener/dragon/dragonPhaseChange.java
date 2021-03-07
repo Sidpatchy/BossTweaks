@@ -21,6 +21,9 @@ public class dragonPhaseChange implements Listener {
         if (phase == EnderDragon.Phase.LEAVE_PORTAL) {
             location.setY(location.getBlockY() + 10);
             for (int i = 0; i < 10; i++) {
+                world.spawnEntity(location, EntityType.PILLAGER).setFallDistance(-100);
+            }
+            for (int i = 0; i < 2; i++) {
                 world.spawnEntity(location, EntityType.BLAZE);
             }
         }

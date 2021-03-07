@@ -1,0 +1,26 @@
+# ----------------------------------------------
+# |               BossTweaks v1.0              |
+# |                 Config file                |
+# ----------------------------------------------
+
+# ---------------- ENDER DRAGON ----------------
+# This section contains values that only affect the Ender Dragon boss fight
+
+# Controls whether the dragon battle should be modified by the plugin. (true = enabled)
+dragonEnabled: true
+
+# Toggles whether TNT should be spawned when the Ender Dragon takes damage
+tntEnabled: true
+
+
+# ------------------- WITHER -------------------
+# This section contains values that only affect the wither boss fight
+
+# Controls whether the wither battle should be modified by the plugin. (true = enabled)
+witherEnabled: true
+
+
+# -------------------- MISC --------------------
+# This section contains values that don't fit in the main categories
+
+configRevision: 1
