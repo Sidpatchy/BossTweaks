@@ -28,7 +28,7 @@ import java.util.logging.Level;
  * Spigot page: https://www.spigotmc.org/resources/bosstweaks.89860/
  *
  * @since January 2021
- * @version 1.0
+ * @version 1.1
  * @author Sidpatchy
  */
 public class BossTweaks extends JavaPlugin {
