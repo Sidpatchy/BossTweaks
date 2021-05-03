@@ -12,6 +12,11 @@ dragonEnabled: true
 # Toggles whether TNT should be spawned when the Ender Dragon takes damage
 tntEnabled: true
 
+# Controls whether a dragon egg is dropped on dragon death
+dragonEggDrop: false
+
+# Controls whether an elytra is dropped on dragon death
+elytraDrop: false
 
 # ------------------- WITHER -------------------
 # This section contains values that only affect the wither boss fight
@@ -23,4 +28,11 @@ witherEnabled: true
 # -------------------- MISC --------------------
 # This section contains values that don't fit in the main categories
 
+# Controls whether the plugin should check for updates
+checkForUpdates: true
+
+# Do not change this, this is automatically changed when needed
 configRevision: 1
+
+# ---------- ADDED AFTER INITIAL USE -----------
+# Parameters that were added to the config file after it was initially generated
